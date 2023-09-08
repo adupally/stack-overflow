@@ -1,0 +1,97 @@
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px;
+  background: #fff;
+}
+footer .container{
+  width: 90%;
+  margin-left: 45px;
+  display: flex;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #D3D3D3;
+  border-top: 1px solid #D3D3D3;
+
+}
+footer .top-container{
+  height: 10vh;
+  display: flex;
+  border-top: 1px solid #D3D3D3;
+}
+footer .top-container-text{
+  display:flex;
+  gap: 10px;
+  margin-left: 70px ;
+}
+footer .top-container a {
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #909090;
+  text-decoration: none;
+}
+footer .container .secc h2{
+  display: flex;
+  position: relative;
+  color: #909090;
+  font-weight: 80;
+  font-size: 15px;
+  margin-right: 20px;
+
+}
+footer .container h2{
+  margin-left: 37px;
+}
+footer .container .secc{
+ padding-left: -10px;
+ display: inline-block;
+ margin-left: 10px;
+  margin-right: 40px;
+
+}
+footer .container .secc .h2-white{
+  color: white;
+}
+footer .container .sci {
+  position: relative;
+  margin-top: 20px;
+  font-size: 10px;
+}
+footer .container  {
+  list-style: none;
+}
+
+.copyrighttext{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.copyrighttext .left-text{
+  order: 1;
+}
+.copyrighttext .date{
+  order: 2;
+
+}
+.social-icon-{
+  margin-left: 300px;
+  margin-top: 25px;
+}
+.socialmedia-icon{
+  width: 15px;
+  margin-left: 20px;
+}
+
+
+@media(min-height:930px){
+  .main-bottom-bar{
+    position: sticky;
+  bottom: 0;
+  }
+  footer{
+    width: 80%;
+    margin-left: 20px;
+  }
+
+}
